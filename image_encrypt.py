@@ -38,8 +38,9 @@ choice = input("Type encrypt or decrypt: ").lower()
 key = int(input("Enter key value: "))
 
 if choice == "encrypt":
-    encrypt_image("image.png", key)
+    encrypt_image("input.png", key)
 elif choice == "decrypt":
     decrypt_image("encrypted.png", key)
 else:
+
     print("Invalid choice")
